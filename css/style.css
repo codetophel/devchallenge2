@@ -1,0 +1,63 @@
+.gallery{
+    height: 80vh;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+img{
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px lightgrey;
+    margin-bottom: 2rem!important;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600!important ;
+}
+
+footer{
+    padding: 25px;
+    color: #a9a9a9;
+    text-align: center;
+}
+h6{
+    font-size: 1.5rem!important;
+}
+.col-md-3{
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    width: fit-content;
+}
+
+@media(max-width: 538px){
+    img{
+        border-radius: 8px;
+        box-shadow: 1px 1px 1px 1px lightgrey;
+        margin-bottom: 0.7rem!important;
+        margin-left: 0.5rem;
+    }
+    .imgg{
+        width: 90px;
+        height: 230px;
+    }
+    .first{
+        height: 105px;
+        width: 110px;
+    }
+    .daddie{
+        width: 80px;
+        margin-bottom: 1rem!important;
+    }
+   h6{
+       font-size: small!important;
+   }
+   .ratings p{
+       font-size: small!important;
+   }
+   h2{
+       font-size: 1rem;
+       font-weight: 200;
+   }
+   
+}
